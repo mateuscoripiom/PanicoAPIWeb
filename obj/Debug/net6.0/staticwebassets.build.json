@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "mvm5BmFGDjh6yu//+O+RqUmQ2PllvclgsDLE69HmWzw=",
+  "Source": "PanicoAPIWeb",
+  "BasePath": "_content/PanicoAPIWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
