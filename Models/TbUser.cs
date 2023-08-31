@@ -14,12 +14,12 @@ public partial class TbUser
     public int IdUser { get; set; }
 
     [Column("nome")]
-    [StringLength(1)]
+    [StringLength(50)]
     [Unicode(false)]
     public string Nome { get; set; } = null!;
 
     [Column("senha")]
-    [StringLength(1)]
+    [StringLength(50)]
     [Unicode(false)]
     public string Senha { get; set; } = null!;
 }

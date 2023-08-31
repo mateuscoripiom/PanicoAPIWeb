@@ -14,27 +14,35 @@ public partial class TbObra
     public int IdObra { get; set; }
 
     [Column("nome")]
-    [StringLength(1)]
+    [StringLength(50)]
     [Unicode(false)]
     public string Nome { get; set; } = null!;
 
     [Column("descricao")]
-    [StringLength(1)]
+    [StringLength(200)]
     [Unicode(false)]
     public string Descricao { get; set; } = null!;
 
     [Column("imagem")]
-    [StringLength(1)]
+    [StringLength(100)]
     [Unicode(false)]
     public string Imagem { get; set; } = null!;
 
     [Column("diretores")]
-    [StringLength(1)]
+    [StringLength(100)]
     [Unicode(false)]
     public string Diretores { get; set; } = null!;
 
     [Column("avaliacao")]
     public int? Avaliacao { get; set; }
+
+    [Column("ano")]
+    public int Ano { get; set; }
+
+    [Column("imagemFundo")]
+    [StringLength(100)]
+    [Unicode(false)]
+    public string ImagemFundo { get; set; } = null!;
 
     [ForeignKey("IdObra")]
     [InverseProperty("IdObras")]

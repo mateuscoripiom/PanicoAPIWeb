@@ -14,17 +14,17 @@ public partial class TbPersonagen
     public int IdPerson { get; set; }
 
     [Column("nomePerson")]
-    [StringLength(1)]
+    [StringLength(50)]
     [Unicode(false)]
     public string NomePerson { get; set; } = null!;
 
     [Column("descricaoPerson")]
-    [StringLength(1)]
+    [StringLength(200)]
     [Unicode(false)]
     public string DescricaoPerson { get; set; } = null!;
 
     [Column("imagemPerson")]
-    [StringLength(1)]
+    [StringLength(100)]
     [Unicode(false)]
     public string ImagemPerson { get; set; } = null!;
 

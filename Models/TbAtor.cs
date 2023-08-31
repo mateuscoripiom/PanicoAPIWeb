@@ -14,17 +14,17 @@ public partial class TbAtor
     public int IdAtor { get; set; }
 
     [Column("nomeElenco")]
-    [StringLength(1)]
+    [StringLength(50)]
     [Unicode(false)]
     public string NomeElenco { get; set; } = null!;
 
     [Column("descricaoElenco")]
-    [StringLength(1)]
+    [StringLength(200)]
     [Unicode(false)]
     public string DescricaoElenco { get; set; } = null!;
 
     [Column("imagemElenco")]
-    [StringLength(1)]
+    [StringLength(100)]
     [Unicode(false)]
     public string ImagemElenco { get; set; } = null!;
 
