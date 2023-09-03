@@ -1,4 +1,4 @@
-# PanicoAPP <img src="https://cdn-icons-png.flaticon.com/512/1141/1141463.png" width="40px"/>
+# PanicoAPI <img src="https://cdn-icons-png.flaticon.com/512/1141/1141463.png" width="40px"/>
 
 >Interface de Programação de Aplicação voltada para o universo dos filmes da franquia de horror-slasher Pânico, criada por Wes Craven e iniciada em 1996. <br>
 
