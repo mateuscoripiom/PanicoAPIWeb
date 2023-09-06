@@ -19,7 +19,7 @@ public partial class TbAtor
     public string NomeElenco { get; set; } = null!;
 
     [Column("descricaoElenco")]
-    [StringLength(200)]
+    [StringLength(500)]
     [Unicode(false)]
     public string DescricaoElenco { get; set; } = null!;
 

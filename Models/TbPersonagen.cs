@@ -19,7 +19,7 @@ public partial class TbPersonagen
     public string NomePerson { get; set; } = null!;
 
     [Column("descricaoPerson")]
-    [StringLength(200)]
+    [StringLength(500)]
     [Unicode(false)]
     public string DescricaoPerson { get; set; } = null!;
 
