@@ -9,6 +9,8 @@
 
 <b>Query com inserts de dados disponível no repositório!</b>
 
+<b>Nome ConnectionString: dbPanico</b>
+
 <b><h2>Métodos disponíveis (endpoints):</h2></b>
 <b>Usuários:</b><br>
 GET: /api/TbUsers - Retorna uma lista de todos os usuários cadastrados.<br>
